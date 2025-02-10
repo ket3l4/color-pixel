@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<script defer src="script.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Color Pixel</title>
+    <link rel="icon" href=
+            "img/logo-nobg.png"
+          type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <div class="brand">
+            <a href="https://github.com/ket3l4" target="_blank" rel="noopener noreferrer">
+                <img class="logo" src="img/logo-nobg.png" alt="ket3l4-logo">
+            </a>
+            <p>ket3l4</p>
+        </div>
+        <div class="nav">
+            <a href="https://github.com/ket3l4" target="_blank" rel="noopener noreferrer">
+                <img class="logo" src="img/github.png" alt="github">
+            </a>
+            <a href="https://www.linkedin.com/in/%E6%AC%A3%E5%85%89-%E8%94%A3-232441338/" target="_blank" rel="noopener noreferrer">
+                <img class="logo" src="img/linkedin.png" alt="linkedin">
+            </a>
+        </div>
+
+    </header>
+    <main>
+        <div class="left">
+            <div class="text">
+                <p class="title">Color Pixel</p>
+                <p class="intro"><strong>Hover</strong> over the grid to color the pixels.</p>
+
+            </div>
+            <div class="controls">
+                <input type="number" class="size" value="9" min="1" max="100">
+                <button onclick="buildSquareGrid()" class="resize">resize</button>
+                <button onclick="clearGrid()">clear</button>
+            </div>
+            <p class="saturation">Saturation</p>
+            <div class="saturation">
+                
+                <button class="sat constant">constant</button>
+                <button class="sat increasing">increasing</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="container">
+            </div>
+        </div>
+    </main>
+</body>
